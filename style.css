@@ -1,0 +1,189 @@
+
+/* global */
+body {
+  margin: 0;
+  font-family: "Roboto";
+}
+main {
+  max-width: 1920px;
+  padding: 8px;
+}
+b {
+    word-break: break-all;
+}
+
+button {
+    height: 32px;
+    border: unset;
+    border-radius: 4px;
+    transition: 75ms;
+    margin: 4px;
+}
+button:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+/* header */
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 24px;
+}
+#notepadImg {
+  height: 100px;
+  margin-left: 24px;
+}
+
+/* InputField */
+.inputBox {
+  width: 40vw;
+  margin-bottom: 16px;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  padding: 16px;
+  justify-content: center;
+  border-radius: 8px;
+  box-shadow: -2px 0px 6px 0px;
+  border: none;
+}
+input {
+  border: unset;
+  outline: none;
+  padding: 4px;
+  font-size: large;
+  margin-bottom: 8px;
+}
+textarea {
+  padding: 4px;
+  outline: none;
+  border: none;
+}
+#inputButtonDiv {
+  display: flex;
+  justify-content: center;
+}
+#inputButtonAdd {
+    background-color: lightgreen;
+    width: 10vw;
+}
+#addButton {
+  height: 88px;
+}
+#addButton:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}
+.newNote {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 32px;
+}
+.newNote h2 {
+  display: flex;
+  justify-content: center;
+}
+
+
+/* Card  */
+.card {
+  width: 248px;
+  height: 104px;
+  border: 1px solid black;
+  border-radius: 8px;
+  box-shadow: -2px 0px 6px 0px rgb(0, 0, 0, 0.2);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 8px;
+  padding: 8px;
+  overflow: auto;
+}
+.popUp-bg {
+  background-color: rgba(0, 0, 0, 0.2);
+  z-index: 999;
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.notePopUp {
+  height: 50vh;
+  width: 50vw;
+  border-radius: 10px;
+  background-color: white;
+  border: 1px solid lightgray;
+  padding: 24px;
+}
+.cardContainer h2 {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+/* archive */
+#archiveDiv h2 {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+#archiveDiv img:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}
+#archiveIcon {
+  height: 100px;
+}
+.archiveContent {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+  }
+
+/* trash */
+#trashCan h2 {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+#trashCan img:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}
+#mainDivTrashIcon {
+  height: 100px;
+}
+.trashContent {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+}
+.oneOfThreeDivs {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+}
+#deleteAllButton{
+width: 100%;
+display: flex;
+justify-content: center;
+}
+
+/* global */
+.d-none {
+  display: none;
+}
